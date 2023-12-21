@@ -44,5 +44,4 @@ class ScratchCard(s: String) {
     fun numMatches(): Int {
         return selectedNumbers.intersect(winningNumbers).size
     }
-
 }
